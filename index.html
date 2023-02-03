@@ -1,48 +1,86 @@
 <!DOCTYPE html>
-  <html>
-    <head>
-      <meta http-equiv="Content-Type" content="Text/Html" charset="utf-8">
-      <style type="text/css">
-        body {
-          text-align: center;
-        }
-        h1 { 
-          font-family: Helvetica, sans-serif; 
-        }
-        p {
-          font-family: Helvetica, sans-serif;
-        }
-        img {
-          margin-right: 20 px;
-        }
-      </style>
-      <script async src="../javascript/beautupid_script.js"></script>
-      <title>Himichoo</title>
-    </head>
-    <body>
-      <header>
-        <div class="header">
-          <h1><img src="logo_himichoo.png" width="26">      We're sorry, Himichoo's team is doing technical work on the site</h1>
-        </div>
-      </header>
-      <section>
-        <div class="section">
-          <div class="wrapper">
+ <html>
+  <head>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap');
+    </style>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        font-family: 'Josefin Sans', Helvetica;
+      }
+      .container {
+        display: flex;
+        height: 100vh;
+      }
+      .left {
+        width: 50%;
+        background-image: url(background_abs.png);
+        background-size: cover;
+      }
+      .right {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 50px;
+        padding-top: 100px;
+      }
+      .logo {
+        width: 30px;
+        margin: -1px;
+        margin-right: 15px;
+      }
+      .name {
+        font-size: 36px;
+      }
+      .coming {
+        font-size: 40px;
+        text-align: center;
+        margin-top: 35vh;
+        margin-bottom: 10px;
+      }
+      .description {
+        font-size: 18px;
+        margin-bottom: 40px;
+        text-align: center;
+      }
+      .address {
+        font-size: 14px;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+      .contact {
+        font-size: 14px;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+      .icons {
+        display: flex;
+        justify-content: center;
+      }
+      .icon {
+        width: 40px;
+        height: 40px;
+        margin: 0 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left"></div>
+      <div class="right">
+        <div font-family="Josefin Sans" class="name"><img class="logo" src="logo_himichoo.png" alt="Himichoo logo">himichoo</div>
+        <div class="description">chemical fiber we love</div>
+        <div class="coming">Coming soon</div>
+        <div class="description">Our team is doing technical work on the website</div>
+        <div class="address">15 Fargona Yuli<br>Tashkent, Uzbekistan</div>
+        <div class="contact">e-mail: info@himichoo.com<br>tel: +998 91 794 3962</div>
+        <div class="icons">
 
-          </div>
         </div>
-      </section>
-      <footer>
-        <div class="footer">
-          <div class="bottom-social-links-container">
-            <p>For contacting, please, use <a href="#">info@himichoo.com</a></p>
-          </div>
-          <div class="bottom-logo">
-            <p>We will show our new project soon!</p>
-          </div>
-          <address class="address">
-          </address>
-        </div>
-      </footer>
-    </body>
-  </html>
+      </div>
+    </div>
+  </body>
+ </html>
